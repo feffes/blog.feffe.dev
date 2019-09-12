@@ -1,5 +1,4 @@
 FROM registry.gitlab.com/pages/hugo/hugo_extended:latest AS build
-RUN ls -al /usr/bin/hugo 
 WORKDIR /build
 COPY . .
 RUN /usr/bin/hugo
