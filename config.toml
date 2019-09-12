@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "feffe's blog"
+theme = "hugo-theme-luluco"
+description = "testadtastastasdtasrasra"
+paginate = 3
+
+[params]
+    smartToc = true
+    avatar = "/images/luluco.png"
+    highlightjs_override = "/js/highlight.pack.js"
+    highlightjs_theme = "/css/atom-one-dark-reasonable.css"
+    Author = "feffe"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    googleAnalytics = "UA-147650972-1"
+
+# Header
+[[menu.main]]
+    name = "Categories"
+    identifier = "categories"
+    url = "/categories"
+    weight = 1
+[[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    url = "/tags/"
+    weight = 2

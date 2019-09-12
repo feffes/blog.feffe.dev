@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-luluco"]
+	path = themes/hugo-theme-luluco
+	url = https://github.com/feffes/hugo-theme-luluco
