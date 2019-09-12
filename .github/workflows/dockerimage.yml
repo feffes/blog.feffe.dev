@@ -9,6 +9,8 @@ jobs:
  
     steps:
     - uses: actions/checkout@v1
+      with:
+        depth: 3
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
