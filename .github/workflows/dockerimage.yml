@@ -13,7 +13,7 @@ jobs:
         depth: 1
         submodules: true
     - name: Publish to Registry
-      uses: elgohr/Publish-Docker-Github-Action@master
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: feffe/blog.feffe.dev
         username: ${{ secrets.DOCKER_USERNAME }}
